@@ -96,4 +96,12 @@ class PhotoCollectionViewController: UICollectionViewController {
         
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if let indexPath = collectionView?.indexPathsForSelectedItems?.first {
+            let photoVC = segue.destination as! LivePhotoViewController
+            photoVC.livePhotoAsset = assetsFetchResults![indexPath.item]
+        }
+    }
 }
