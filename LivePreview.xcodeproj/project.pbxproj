@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9B0BC2F21F770E2A00F4BA0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BC2F11F770E2A00F4BA0A /* AppDelegate.swift */; };
-		9B0BC2F41F770E2A00F4BA0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BC2F31F770E2A00F4BA0A /* ViewController.swift */; };
 		9B0BC2F71F770E2A00F4BA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0BC2F51F770E2A00F4BA0A /* Main.storyboard */; };
 		9B0BC2F91F770E2A00F4BA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0BC2F81F770E2A00F4BA0A /* Assets.xcassets */; };
 		9B0BC2FC1F770E2A00F4BA0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0BC2FA1F770E2A00F4BA0A /* LaunchScreen.storyboard */; };
+		9B0BC3041F770F4D00F4BA0A /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BC3031F770F4D00F4BA0A /* PhotoCollectionViewController.swift */; };
+		9B0BC3061F770F6A00F4BA0A /* LivePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BC3051F770F6A00F4BA0A /* LivePhotoViewController.swift */; };
+		9B0BC3081F770FAD00F4BA0A /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BC3071F770FAD00F4BA0A /* PhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B0BC2EE1F770E2A00F4BA0A /* LivePreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivePreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0BC2F11F770E2A00F4BA0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B0BC2F31F770E2A00F4BA0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B0BC2F61F770E2A00F4BA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B0BC2F81F770E2A00F4BA0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B0BC2FB1F770E2A00F4BA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B0BC2FD1F770E2A00F4BA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0BC3031F770F4D00F4BA0A /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		9B0BC3051F770F6A00F4BA0A /* LivePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePhotoViewController.swift; sourceTree = "<group>"; };
+		9B0BC3071F770FAD00F4BA0A /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				9B0BC2F11F770E2A00F4BA0A /* AppDelegate.swift */,
-				9B0BC2F31F770E2A00F4BA0A /* ViewController.swift */,
+				9B0BC3031F770F4D00F4BA0A /* PhotoCollectionViewController.swift */,
 				9B0BC2F51F770E2A00F4BA0A /* Main.storyboard */,
+				9B0BC3051F770F6A00F4BA0A /* LivePhotoViewController.swift */,
+				9B0BC3071F770FAD00F4BA0A /* PhotoCollectionViewCell.swift */,
 				9B0BC2F81F770E2A00F4BA0A /* Assets.xcassets */,
 				9B0BC2FA1F770E2A00F4BA0A /* LaunchScreen.storyboard */,
 				9B0BC2FD1F770E2A00F4BA0A /* Info.plist */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B0BC2F41F770E2A00F4BA0A /* ViewController.swift in Sources */,
+				9B0BC3061F770F6A00F4BA0A /* LivePhotoViewController.swift in Sources */,
+				9B0BC3081F770FAD00F4BA0A /* PhotoCollectionViewCell.swift in Sources */,
 				9B0BC2F21F770E2A00F4BA0A /* AppDelegate.swift in Sources */,
+				9B0BC3041F770F4D00F4BA0A /* PhotoCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
